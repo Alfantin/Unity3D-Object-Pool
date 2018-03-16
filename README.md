@@ -5,13 +5,15 @@ setup. Usage;
 
 	var pool = new ObjectPool(capacity);
 
-instance object
+intance 
 
 	var instance = pool.instance(prefab);
-
+	var instance = pool.instance(prefab, position);
+	var instance = pool.instance(prefab, position, rotation);
+	
 destroy objects
 
-	pool.destroy(instance );
+	pool.destroy(instance);
 
 clear
 
