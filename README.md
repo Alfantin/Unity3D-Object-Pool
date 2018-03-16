@@ -11,7 +11,7 @@ intance
 	var instance = pool.instance(prefab, position);
 	var instance = pool.instance(prefab, position, rotation);
 	
-destroy objects
+destroy
 
 	pool.destroy(instance);
 
