@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[System.Serializable]
 public class ObjectPool {
 
     private int capacity = 100;
