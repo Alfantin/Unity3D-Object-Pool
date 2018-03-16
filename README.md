@@ -1,7 +1,8 @@
 # Unity3D Object Pool
 
 Simple multi prefab supported object pool implementation.
-setup. Usage;
+
+setup
 
 	var pool = new ObjectPool(capacity);
 
