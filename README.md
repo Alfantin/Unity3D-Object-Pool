@@ -6,7 +6,7 @@ setup
 
 	var pool = new ObjectPool(capacity);
 
-intance 
+instance 
 
 	var instance = pool.instance(prefab);
 	var instance = pool.instance(prefab, position);
